@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+tensorflow
+numpy
+pillow
+sounddevice 
+numpy 
+torch
+openai-whisper
+torchaudio
+whisper
+python-multipart
+gradio
+tempfile
+shutil
