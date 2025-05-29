@@ -1,0 +1,14 @@
+{
+  "name": "arogya-ai",
+  "version": "1.0.0",
+  "description": "Healthcare Assessment Platform",
+  "scripts": {
+    "frontend": "cd frontend && npm run dev",
+    "backend": "cd node-backend && npm run dev",
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\"",
+    "install-all": "npm install && cd frontend && npm install && cd ../node-backend && npm install"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
