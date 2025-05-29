@@ -12,6 +12,7 @@
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "@reverieit/reverie-client": "^0.4.0",
+    "axios": "^1.6.7",
     "chart.js": "^4.4.1",
     "dotenv": "^16.5.0",
     "framer-motion": "^11.0.5",

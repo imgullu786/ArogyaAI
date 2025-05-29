@@ -18,7 +18,10 @@ const app = express();
 
 // Security middleware
 app.use(helmet());
-app.use(cors({ origin: true, credentials: true }));
+app.use(cors({ 
+  origin: 'http://localhost:5173',
+  credentials: true 
+}));
 app.use(cookieParser());
 
 // Development logging
